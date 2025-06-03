@@ -1,0 +1,167 @@
+body {
+  background-color: #b8e6b8;
+  color: #1e2a05; /* Optional: text color for contrast */
+  font-family: "WDXL Lubrifont TC";
+  margin: 0;
+  padding: 0;
+}
+.introduction{
+    align-items: center;
+    margin-left: 200;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping */
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; /* allows items to wrap if screen is small */
+  gap: 40px;        /* optional spacing between items */
+  justify-content: center; /* centers the figures */
+}
+
+figure {
+  width: 200px;
+  text-align: center;
+}
+img{
+    width: 400;
+    border-radius: 10px;
+    border-color: #556B2F;
+    
+}
+.hline{
+   
+  height: 2px;
+  background-color: #4B5320; /* Army green */
+  border: none;
+  margin: 20px auto;
+  width: 60%;
+}
+sup {
+  font-size: 0.4em;
+  color: #1e2a05; /* soft matcha green */
+}
+.powered{
+    font-size: 0.6em;
+}
+.container a{
+    color: #1e2a05;
+}
+.mee{
+    margin-bottom: 0;
+}
+h1{
+    margin-bottom: 10px;
+}
+.contact a{
+    color: #1e2a05;
+}
+.menu{
+    
+    padding-left: 50px;
+    text-align: left;
+    margin-left: 0;
+    width: 60%;
+    border-left: 4px solid #A8C66C;
+    
+}
+.menuimg{
+    border-radius: 20px;
+}
+table {
+  background-color: #b8e6b8;  /* Light matcha green */
+  color: #1e2a05;                /* Text color */
+  border: 1px solid #1e2a05;  /* Optional border */
+  width: 70%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  padding: 20px;
+}
+.home a{
+    color: #1e2a05;
+}
+.logo{
+    margin: 20px;
+    padding: 20px;
+    
+}
+.contactbox {
+  width: 60%;
+  margin-left: 40px; /* Slightly away from the edge */
+  padding: 30px;
+  background-color: #f0f5e4; /* soft matcha tone */
+  border-left: 4px solid #A8C66C;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contactbox h2 {
+  color: #4B5320; /* dark earthy green */
+  margin-bottom: 10px;
+}
+
+.contactbox p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.contactbox a {
+  color: #4B5320;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contactbox a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin: 12px 0 4px;
+  font-weight: bold;
+  color: #4B5320;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #A8C66C;
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: #ffffff;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #A8C66C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8aa850;
+}
+.contact{
+    padding: 50px;
+}
+
+
